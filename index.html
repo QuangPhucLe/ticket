@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ticket System</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div>
+      <h1 id="invitation-text">Chào bạn!</h1>
+      <div>
+        <p>Số bốc hiện tại: <span id="random-number-boc-so">0</span></p>
+        <button id="button-boc-so">Bốc số</button>
+        <button id="button-decrement">Giảm số</button>
+      </div>
+      <div>
+        <p>Số gọi hiện tại: <span id="random-number-goi-so">0</span></p>
+        <button id="button-goi-so">Gọi số</button>
+      </div>
+      <div>
+        <button id="button-reset">Reset</button>
+        <button id="button-view-history">Xem lịch sử</button>
+      </div>
+      <div id="history-container" style="display: none"></div>
+    </div>
+    <audio id="audio-element" src="audio.mp3"></audio>
+    <audio id="audio-element1" src="audio1.mp3"></audio>
+    <script src="script.js"></script>
+  </body>
+</html>
