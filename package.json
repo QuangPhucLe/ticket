@@ -1,0 +1,15 @@
+{
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "description": "Your project description",
+  "main": "server-script.js",
+  "scripts": {
+    "start": "node server-script.js"
+  },
+  "dependencies": {
+    "mysql2": "^3.11.0",
+    "express": "^4.18.2"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}

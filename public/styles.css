@@ -1,0 +1,99 @@
+body {
+    background-image: url('1.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: red;
+}
+
+#random-number-boc-so, #random-number-goi-so, #invitation-text {
+    font-size: 35px;
+    font-weight: bold;
+    color: gold;
+}
+
+#button-boc-so, #button-goi-so {
+    font-size: 24px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* CSS cho thông báo màu đỏ */
+#red-alert {
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgb(251, 9, 9);
+}
+#lich-su {
+    margin-top: 20px;
+}
+
+#danh-sach-lich-su {
+    list-style: none;
+    padding: 0;
+}
+
+#danh-sach-lich-su li {
+    margin-bottom: 10px;
+}
+
+/* Phong cách chung cho các nút */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+/* Phong cách cho nút bốc số */
+#button-boc-so {
+    background-color: #4CAF50; /* Màu xanh lá cây */
+    color: white;
+}
+
+/* Phong cách cho nút gọi số */
+#button-goi-so {
+    background-color: #2196F3; /* Màu xanh dương */
+    color: white;
+}
+
+/* Phong cách cho nút reset */
+#button-reset {
+    background-color: #f44336; /* Màu đỏ */
+    color: white;
+}
+/* Phong cách cho nút xem lịch sử */
+#button-view-history {
+    background-color: #FF9800; /* Màu cam */
+    color: white;
+}
+
+/* Phong cách cho phần tử hiển thị lịch sử */
+.history-container {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    display: none; /* Ẩn phần tử ban đầu */
+}
+
+.history-item {
+    margin-bottom: 10px;
+}
+
+/* Phong cách cho nút dấu "-" */
+.buttonDecrement {
+    float: left;
+    background-color: #f11303; /* Red color */
+    color: rgb(244, 3, 3);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 10px; /* Space between decrement and call number button */
+  }
